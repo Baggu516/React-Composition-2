@@ -1,0 +1,26 @@
+
+.parent{
+  display: flex;
+  /* text-align:center ; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #61dafb;
+  width: 600px;
+  margin: 20px auto;
+  padding: 100px;
+}
+.modal-overlay{
+  background-color: #2e2eff;
+  color: white;
+  padding: 50px;
+}
+.modal-p{
+  text-align: center;
+}
+.modal-close{
+  margin-left:90% ;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
